@@ -1,0 +1,18 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Apply base font to the entire document */
+body { 
+    font-family: 'Inter', sans-serif; 
+}
+
+/* Styling for the modal backdrop */
+.modal-backdrop {
+    background-color: rgba(0,0,0,0.5);
+    transition: opacity 0.3s ease;
+}
+
+/* Styling for the modal content animation */
+.modal-content {
+    transition: transform 0.3s ease;
+}
